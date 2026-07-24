@@ -114,10 +114,6 @@ phase.png                          Phase-portrait figure shown above
 
 `func_compute_control_action.m` contains inline comments flagging two suspected bugs inherited from the original derivation (`H1`/`H2` computation — see comments in that file around lines 76–88); it's used only for post-hoc cost evaluation during optimization, not in the closed-loop `func_feedback.m` controller, so it doesn't affect the final simulated gait.
 
-## Team
-
-Andrew Lessieur, Jagatpreet Nir, Edward Wiley, Stephen Hagen — EECE7398 course project.
-
 ## References
 
 - E. R. Westervelt, J. W. Grizzle, C. Chevallereau, J. H. Choi, B. Morris, *Feedback Control of Dynamic Bipedal Robot Locomotion*, CRC Press, 2007.
