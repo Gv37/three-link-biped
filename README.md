@@ -15,7 +15,6 @@ The robot is modeled as three rigid links connected at a hip: a **stance leg**, 
 
 A **virtual constraint** is imposed on the swing-leg and torso angles (`q2`, `q3`) as 4th-order Bézier polynomials of a gait-timing variable `s`, itself a normalized function of the stance-leg angle `q1`. Feedback linearization drives the outputs `h(x) = [q2, q3] − [b2(s), b3(s)]` to zero, restricting the closed-loop dynamics to a lower-dimensional invariant surface (the **zero dynamics**) parameterized purely by `(q1, q̇1)`. Gait parameters and Bézier coefficients are chosen via constrained optimization (`fmincon`) to produce a periodic, symmetric walking cycle while minimizing control effort.
 
-This follows the approach in Westervelt, Grizzle, Chevallereau, Choi & Morris, *Feedback Control of Dynamic Bipedal Robot Locomotion* (CRC Press, 2007) — the impact-map and zero-dynamics derivations directly reference that text.
 
 ## Requirements
 
