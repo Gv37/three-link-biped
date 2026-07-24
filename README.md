@@ -110,10 +110,4 @@ phase.png                          Phase-portrait figure shown above
 - Bézier coefficients printed/plotted by `simZD2.m` are in **degrees**; internal dynamics use **radians**.
 - `theta` (used to set the optimizer's initial guess) relates to step length by `step_length = 2*r*cos(theta)`, where `r` is leg length.
 
-## Known issues
 
-`func_compute_control_action.m` contains inline comments flagging two suspected bugs inherited from the original derivation (`H1`/`H2` computation — see comments in that file around lines 76–88); it's used only for post-hoc cost evaluation during optimization, not in the closed-loop `func_feedback.m` controller, so it doesn't affect the final simulated gait.
-
-## References
-
-- E. R. Westervelt, J. W. Grizzle, C. Chevallereau, J. H. Choi, B. Morris, *Feedback Control of Dynamic Bipedal Robot Locomotion*, CRC Press, 2007.
