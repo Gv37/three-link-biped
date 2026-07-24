@@ -8,7 +8,7 @@
 % Output:  
 %       b: Bezier polynomial
 % 
-% Written by Pravin Dangol, 02-20-2019, Boston, MA
+% Written by Guruvignesh Madhavan
 %
 % Notes:
 %   for a normalized general coordinate s = (theta(q) - min(theta))/(max(theta) - min(theta))

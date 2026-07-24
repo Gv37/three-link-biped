@@ -1,6 +1,5 @@
 % ---------------------------------------------------
-% Team:       Andrew Lessieur, Jagatpreet Nir,
-%             Edward Wiley, Stephen Hagen
+% Author:     Guruvignesh Madhavan
 % 
 % Purpose:    Provide a clear starting point for running our project code
 %             as well as give user the choice to run parts or all of code

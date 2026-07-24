@@ -334,7 +334,7 @@ write_symbolic_term_to_mfile(q,dq,params,eta2)
 function pnew = aug(p)
 % ---------------------------------------------------   
 % 
-% Author:     Andrew Lessieur
+% Author:     Guruvignesh Madhavan
 % 
 % Purpose:    Augments position vector to be a 4x1 by adding a 1 in its
 %             fourth entry
@@ -346,7 +346,7 @@ end
 function pnew = extr(p)
 % ---------------------------------------------------   
 % 
-% Author:     Andrew Lessieur
+% Author:     Guruvignesh Madhavan
 % 
 % Purpose:    Extracts position vector from a 4x1 vector given by a
 %             homogeneous transformation
